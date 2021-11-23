@@ -1,0 +1,50 @@
+body {
+  background-image: url('corona.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.container {
+  text-align: center;
+  /* margin: 20px; */
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(14, 82, 109);
+}
+
+.input {
+  margin-top: 20px;
+  border: 2px solid rgb(147, 203, 226);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#output {
+  padding: 20px;
+  color: rgb(0, 56, 78);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.button {
+  border: 2px solid rgb(147, 203, 226);
+  margin: 20px;
+  border-radius: 23px;
+  padding: 8px;
+  background-color: rgb(181, 227, 245);
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
